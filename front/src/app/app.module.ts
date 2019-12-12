@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './component/login/login.component';
 import { RegistroComponent } from './component/registro/registro.component';
+import { MenuComponent } from './menu/menu.component';
 import { PortalPComponent } from './component/portal-p/portal-p.component';
 import { CrearCursoComponent } from './component/crear-curso/crear-curso.component';
 import { MiscursosComponent } from './component/miscursos/miscursos.component';
@@ -22,6 +23,7 @@ const appRoutes: Routes = [
     AppComponent,
     LoginComponent,
     RegistroComponent,
+    MenuComponent,
     PortalPComponent,
     CrearCursoComponent,
     MiscursosComponent
