@@ -5,9 +5,16 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './component/login/login.component';
 import { RegistroComponent } from './component/registro/registro.component';
 import { MenuComponent } from './menu/menu.component';
+import { PortalPComponent } from './component/portal-p/portal-p.component';
+import { CrearCursoComponent } from './component/crear-curso/crear-curso.component';
+import { MiscursosComponent } from './component/miscursos/miscursos.component';
+
 const appRoutes: Routes = [
   { path: 'login', component: LoginComponent },
-  { path: 'registro', component: RegistroComponent }
+  { path: 'registro', component: RegistroComponent },
+  { path: 'portal', component: PortalPComponent },
+  { path: 'portal/crear curso', component: CrearCursoComponent },
+  { path: 'portal/mis cursos', component: MiscursosComponent }
   
 ];
 
@@ -16,7 +23,10 @@ const appRoutes: Routes = [
     AppComponent,
     LoginComponent,
     RegistroComponent,
-    MenuComponent
+    MenuComponent,
+    PortalPComponent,
+    CrearCursoComponent,
+    MiscursosComponent
   ],
   imports: [
     BrowserModule,

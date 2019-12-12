@@ -1,0 +1,10 @@
+.caja {
+    padding-bottom: 50px;
+    margin:50px;
+    background-color: #CAE9FA;
+    color: black;
+}
+#titulo{
+padding-top: 50px;
+text-align: center;
+}
