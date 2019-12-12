@@ -8,14 +8,16 @@ import { MenuComponent } from './menu/menu.component';
 import { PortalPComponent } from './component/portal-p/portal-p.component';
 import { CrearCursoComponent } from './component/crear-curso/crear-curso.component';
 import { MiscursosComponent } from './component/miscursos/miscursos.component';
-
+import { NotasComponent } from './component/notas/notas.component';
+import { ControlesComponent } from './component/controles/controles.component';
 const appRoutes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'registro', component: RegistroComponent },
   { path: 'portal', component: PortalPComponent },
-  { path: 'portal/crear curso', component: CrearCursoComponent },
-  { path: 'portal/mis cursos', component: MiscursosComponent }
-  
+  { path: 'portal/crearcurso', component: CrearCursoComponent },
+  { path: 'portal/miscursos', component: MiscursosComponent },
+  { path: 'notas', component: NotasComponent },
+  { path: 'controles', component: ControlesComponent }
 ];
 
 @NgModule({
@@ -26,7 +28,9 @@ const appRoutes: Routes = [
     MenuComponent,
     PortalPComponent,
     CrearCursoComponent,
-    MiscursosComponent
+    MiscursosComponent,
+    NotasComponent,
+    ControlesComponent
   ],
   imports: [
     BrowserModule,
