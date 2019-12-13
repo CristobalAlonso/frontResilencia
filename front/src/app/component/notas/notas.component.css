@@ -1,0 +1,49 @@
+.titulo {
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    margin-right:200px;
+    background-color: rgb(195, 117, 195);
+    color: black;
+    text-align: center;
+}
+
+.caja {
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right:200px;
+    background-color: whitesmoke;
+    color: black;
+}
+#titulo{
+padding-top: 50px;
+text-align: center;
+}
+
+.dropdrown {
+padding-bottom: 10px;
+margin-top: 20px;
+margin-bottom:10px;
+margin-left: 420px;
+margin-right:600px;
+}
+
+.caja3 {
+    padding-bottom: 50px;
+    margin-top: 10px;
+    margin-bottom: 1000px;
+    margin-left: 200px;
+    margin-right:200px;
+    background-color: rgb(201, 234, 247);
+    color: black;
+} 
+.BotonAtras {
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom:10px;
+    margin-left: 20px;
+    margin-right:20px;
+}

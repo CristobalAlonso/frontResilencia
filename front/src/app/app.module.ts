@@ -9,15 +9,19 @@ import { CrearCursoComponent } from './component/crear-curso/crear-curso.compone
 import { MiscursosComponent } from './component/miscursos/miscursos.component';
 import { AlumnosComponent } from './component/alumnos/alumnos.component';
 import { PortalAlumnosComponent } from './component/portal-alumnos/portal-alumnos.component';
+import { NotasComponent } from './component/notas/notas.component';
+import { ControlesComponent } from './component/controles/controles.component';
 
 const appRoutes: Routes = [
-  { path: 'login', component: LoginComponent },
+  { path: '', component: LoginComponent },
   { path: 'registro', component: RegistroComponent },
   { path: 'portal', component: PortalPComponent },
   { path: 'portal/crear curso', component: CrearCursoComponent },
   { path: 'portal/mis cursos', component: MiscursosComponent },
   { path: 'portal/alumnos', component: AlumnosComponent },
-  { path: 'portalAlumnos', component: PortalAlumnosComponent }
+  { path: 'portalAlumnos', component: PortalAlumnosComponent },
+  { path: 'portalAlumnos/notas', component: NotasComponent },
+  { path: 'portalAlumnos/controles', component: ControlesComponent }
   
 ];
 
@@ -30,7 +34,9 @@ const appRoutes: Routes = [
     CrearCursoComponent,
     MiscursosComponent,
     AlumnosComponent,
-    PortalAlumnosComponent
+    PortalAlumnosComponent,
+    NotasComponent,
+    ControlesComponent
   ],
   imports: [
     BrowserModule,
