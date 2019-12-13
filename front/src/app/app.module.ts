@@ -8,6 +8,7 @@ import { PortalPComponent } from './component/portal-p/portal-p.component';
 import { CrearCursoComponent } from './component/crear-curso/crear-curso.component';
 import { MiscursosComponent } from './component/miscursos/miscursos.component';
 import { AlumnosComponent } from './component/alumnos/alumnos.component';
+import { PortalAlumnosComponent } from './component/portal-alumnos/portal-alumnos.component';
 
 const appRoutes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -15,7 +16,8 @@ const appRoutes: Routes = [
   { path: 'portal', component: PortalPComponent },
   { path: 'portal/crear curso', component: CrearCursoComponent },
   { path: 'portal/mis cursos', component: MiscursosComponent },
-  { path: 'alumnos', component: AlumnosComponent }
+  { path: 'portal/alumnos', component: AlumnosComponent },
+  { path: 'portalAlumnos', component: PortalAlumnosComponent }
   
 ];
 
@@ -27,7 +29,8 @@ const appRoutes: Routes = [
     PortalPComponent,
     CrearCursoComponent,
     MiscursosComponent,
-    AlumnosComponent
+    AlumnosComponent,
+    PortalAlumnosComponent
   ],
   imports: [
     BrowserModule,
